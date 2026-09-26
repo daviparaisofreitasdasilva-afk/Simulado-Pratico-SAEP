@@ -1,0 +1,25 @@
+{
+  "name": "simulado-pratico-saep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daviparaisofreitasdasilva-afk/Simulado-Pratico-SAEP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/daviparaisofreitasdasilva-afk/Simulado-Pratico-SAEP/issues"
+  },
+  "homepage": "https://github.com/daviparaisofreitasdasilva-afk/Simulado-Pratico-SAEP#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}

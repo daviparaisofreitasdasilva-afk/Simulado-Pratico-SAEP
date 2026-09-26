@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulado Pratico SAEP</title>
+</head>
+    <t1 class="Titulo"> Cadastro de Equipamento</t1>
+
+<body>
+    <div class="body">
+        <form action="/cadastrar" method="get">
+            <input type="text" name="q" placeholder="nome do equipamento" id="nome" required>
+            <input type="text" name="q" placeholder="tipo equipamento" id="tipo" required> 
+            <input type="text" name="q" placeholder="marca" id="marca" required> 
+            <input type="text" name="q" placeholder="problema relatado" id="problema" required>
+            
+                <label for="status"></label>
+                    <select id="status" name="status">
+                        <option value="análise">Status</option>
+                        <option value="análise">análise</option>
+                        <option value="manutenção">manutenção</option>
+                        <option value="Finalizado">Finalizado</option>
+                    </select>
+           
+        </form>
+
+        
+
+        <form id="bnt-enviar">
+        <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+
+
+
+</body>
+
+<script src="SAEP.js"></script>
+</html>
